@@ -1,0 +1,26 @@
+# Projekt Kompilatora
+# Autor: Mikhail Filatov
+
+# Narzędzia
+# python 3.10.12
+# sly 0.5  
+
+# Instalacja
+    # Python 
+        #  sudo apt-get update
+        # sudo apt-get install python3-pip
+    # Sly
+        # pip install sly
+
+# Użycie 
+    # python3 compiler.py <nazwa pliku wejściowego> <nazwa pliku wyjściowego>
+
+# Pliki
+    # compiler.py - zawiera lekser i parser. Czyta plik wejściowy i wypisuje kod do pliku wyjściowego
+    # link.py - zawiera klasę Link, która jest służy wzkaźnikiem dla zmiennych i tablic
+    # variable.py - zawiera klasę Variable, która representuję zmienną w pamięci
+    # list.py - zawiera klasę List, która representuję tablicę w pamięci 
+    # procedure.py - zawiera klasę Procedure, która przechowuje zmienne, listy, wzkaźniki, oraz constanty
+    # program.py - zawira klasę Program która przechowuje procedury oraz genruje assembly code dla każdej procedury
+    # assembly_generator.py - zawiera metody generujące kod assemblerowski dla podanej procedury na wejściu
+
