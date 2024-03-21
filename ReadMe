@@ -17,10 +17,10 @@
 
 # Pliki
     # compiler.py - zawiera lekser i parser. Czyta plik wejściowy i wypisuje kod do pliku wyjściowego
-    # link.py - zawiera klasę Link, która jest służy wzkaźnikiem dla zmiennych i tablic
+    # link.py - zawiera klasę Link, która służy wzkaźnikiem dla zmiennych i tablic
     # variable.py - zawiera klasę Variable, która representuję zmienną w pamięci
     # list.py - zawiera klasę List, która representuję tablicę w pamięci 
     # procedure.py - zawiera klasę Procedure, która przechowuje zmienne, listy, wzkaźniki, oraz constanty
-    # program.py - zawira klasę Program która przechowuje procedury oraz genruje assembly code dla każdej procedury
+    # program.py - zawiera klasę Program która przechowuje procedury oraz genruje assembly code dla każdej procedury
     # assembly_generator.py - zawiera metody generujące kod assemblerowski dla podanej procedury na wejściu
 
