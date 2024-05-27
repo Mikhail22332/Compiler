@@ -1,0 +1,12 @@
+
+PROCEDURE load_state(T state) IS
+IN
+  READ state[0];
+END
+PROGRAM IS
+    state[8]
+IN
+    READ state[123];
+    load_state(state);
+    WRITE state[0];
+END

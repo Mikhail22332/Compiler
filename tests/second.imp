@@ -1,0 +1,22 @@
+PROCEDURE write(T k) IS IN
+    WRITE k[1];
+END
+
+
+PROCEDURE add(n) IS
+    r, e[5]
+IN
+    r:=1;
+    e[r]:=5;
+    e[r]:=e[r] + e[r];
+    add(e);
+    e[r]:=e[r] + e[r];
+    WRITE e[r];
+END
+
+PROGRAM IS
+    n
+IN
+    add(n);
+    WRITE f[1];
+END
